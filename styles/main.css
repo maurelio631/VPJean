@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+:root{
+    --blue:#093260;
+    --orange:#f18b13;
+    --black: #000000;
+    --title-font:"Ruda", sans-serif;
+    --text-font:"Noto Sans", sans-serif;
+    --anchor-font:"Kavivanar", cursive;
+    --buttons-green:#39ff14;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-size: 1.2rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-family: var(--title-font);
+    color: var(--orange);
+}
+
+li{
+    color: var(--orange);
+}
+
+p{
+    text-align: justify;
+    color: #ffff;
+}
+
+/* ul */
+
+.video {
+    position: relative;
+    padding-bottom: 43.25%;
+    height: 0;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.bg-black{
+    background-color: var(--black);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.bg-green{
+    background-color: var(--buttons-green);
+}
+
+.text-orange{
+    color: var(--orange);
+}
+.text-blue{
+    color: var(--blue);
+}
+.text-black{
+    color: var(--black);
+}
+
+.jefferson{
+    width: 20rem;
+}
+
+@keyframes crescendo {
+    0%   {transform: scale(.8);}
+    100% {transform: scale(1.2);}
+  }
