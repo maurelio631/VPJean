@@ -39,7 +39,10 @@ p{
     color: #ffff;
 }
 
-/* ul */
+button{
+    animation: crescendo 1.5s alternate infinite ease-in;
+}
+
 
 .video {
     position: relative;
@@ -57,9 +60,6 @@ p{
     height: 100%;
 }
 
-button{
-    animation: crescendo 1.5s alternate infinite ease-in;
-}
 
 .bg-blue{
     background-color: var(--blue);
@@ -89,6 +89,10 @@ button{
 
 .jefferson{
     width: 20rem;
+}
+
+.text-small{
+    font-size: 0.6rem;
 }
 
 @keyframes crescendo {
