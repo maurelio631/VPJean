@@ -40,17 +40,20 @@
             id="panda-98edb0de-da2a-4ce0-8d6d-035d4f4169ca"
             src="https://player-vz-81e2b59b-e92.tv.pandavideo.com.br/embed/?v=98edb0de-da2a-4ce0-8d6d-035d4f4169ca"
             style="border: none"
-            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
             allowfullscreen="true"
             width="720"
-            height=360"
+            height="360"
             class="m-auto mt-4"
           ></iframe>
         </div>
-        <button class="text-black bg-green p-4 border-0 rounded">
+        <button
+          class="text-black bg-green p-4 border-0 rounded d-none"
+          id="buyButton"
+        >
           QUERO UM SALÁRIO COM ESPORTES
         </button>
-        <p class="text-small">
+        <p class="text-small bg-white text-black text-center" id="hiddenDisclosure">
           Este produto não garante a obtenção de resultados. Qualquer referência
           ao uso da ferramenta não deve ser interpretada como uma garantia de
           resultados. Este site não é afiliado ao Facebook ou a qualquer
@@ -68,35 +71,43 @@
         <section
           class="d-flex flex-column my-4 justify-content-center align-items-center"
         >
-          <h2>
-            O QUE É A COMUNIDADE SALÁRIO COM ESPORTES E COMO TE GARANTE
-            RESULTADO?
-          </h2>
-          <p class="text-center">
-            O mundo do investimento esportivo vem crescendo muito no Brasil, e
-            ao contrário do que a maioria das pessoas acham, existe estratégia,
-            lógica, probabilidade e dados para definir padrões de entradas.
-          </p>
-          <p class="text-center">
-            Exatamente por não ter clubismo e nem achismo a Comunidade Salário
-            com Esportes trás tanto resultado.
-          </p>
-          <p class="text-center">
-            Os analistas do meu time analisam as oportunidades de mercado e
-            mandam os sinais no grupo.
-          </p>
-          <p class="text-center">
-            Assim você consegue lucrar de forma fácil, sem precisar ter
-            acompanhar os jogos, ou analisar as estatísticas, o meu time fará
-            isso pra você.
-          </p>
+          <div class="row">
+            <h2>
+              O QUE É A COMUNIDADE SALÁRIO COM ESPORTES E COMO TE GARANTE
+              RESULTADO?
+            </h2>
+            <div class="col-md-5">
+              <img src="./assets/img/Comemorando.png" />
+            </div>
+            <div class="col-md-6 mt-3">
+              <p class="text-center">
+                O mundo do investimento esportivo vem crescendo muito no Brasil,
+                e ao contrário do que a maioria das pessoas acham, existe
+                estratégia, lógica, probabilidade e dados para definir padrões
+                de entradas.
+              </p>
+              <p class="text-center">
+                Exatamente por não ter clubismo e nem achismo a Comunidade
+                Salário com Esportes trás tanto resultado.
+              </p>
+              <p class="text-center">
+                Os analistas do meu time analisam as oportunidades de mercado e
+                mandam os sinais no grupo.
+              </p>
+              <p class="text-center">
+                Assim você consegue lucrar de forma fácil, sem precisar ter
+                acompanhar os jogos, ou analisar as estatísticas, o meu time
+                fará isso pra você.
+              </p>
+            </div>
+          </div>
         </section>
         <section
           class="d-flex flex-column my-4 justify-content-center align-items-center"
         >
           <div class="my-4">
             <h2>PARA QUEM É A COMUNIDADE SCE?</h2>
-            <div class="row">
+            <div class="row mt-4">
               <div class="col-md-4">
                 <h3>DINHEIRO</h3>
                 <p class="text-center">
@@ -131,7 +142,7 @@
         >
           <div class="my-4">
             <h2>O QUE VOCÊ VAI RECEBER?</h2>
-            <div class="row">
+            <div class="row mt-4">
               <div class="col-md-4">
                 <h3>Acesso ao Time SCE</h3>
                 <p class="text-center">
@@ -192,8 +203,8 @@
         >
           <div class="row flex justify-content-center align-items-center">
             <h2>QUEM É JEFFERSON GIANNINI?</h2>
-            <img class="jefferson col-lg-3" src="./assets/img/Jefferson.jpg" />
-            <div class="col-lg-9 my-4">
+            <img class="jefferson col-lg-6" src="./assets/img/Salario.png" />
+            <div class="col-lg-6 my-4">
               <p>
                 Vim da quebrada e sempre fui sonhador… Sempre quis ter as 3
                 liberdades: Tempo, dinheiro e geográfica. Nunca me contentei com
@@ -210,21 +221,22 @@
                 Quero levar essa oportunidade para o máximo de pessoas que
                 tiverem interesse e compromisso com a Comunidade SCE.
               </p>
-              <p class="text-small">
-                Este produto não garante a obtenção de resultados. Qualquer referência
-                ao uso da ferramenta não deve ser interpretada como uma garantia de
-                resultados. Este site não é afiliado ao Facebook ou a qualquer
-                entidade do Facebook. Depois que você sair do Facebook, a
-                responsabilidade não é deles e sim do nosso site. Fazemos todos os
-                esforços para indicar claramente e mostrar todas as provas do produto
-                e usamos resultados reais. Nós não vendemos o seu e-mail ou qualquer
-                informação para terceiros. Jamais fazemos nenhum tipo de spam. Se você
-                tiver alguma dúvida, sinta-se à vontade para usar o link de contato e
-                falar conosco em horário comercial de Segunda a Sexta das 09h00 às
-                18h00. Lemos e respondemos todas as mensagens por ordem de chegada.
-              </p>
             </div>
           </div>
+          <p class="text-small text-center bg-white text-black mt-lg-2">
+            Este produto não garante a obtenção de resultados. Qualquer
+            referência ao uso da ferramenta não deve ser interpretada como uma
+            garantia de resultados. Este site não é afiliado ao Facebook ou a
+            qualquer entidade do Facebook. Depois que você sair do Facebook, a
+            responsabilidade não é deles e sim do nosso site. Fazemos todos os
+            esforços para indicar claramente e mostrar todas as provas do
+            produto e usamos resultados reais. Nós não vendemos o seu e-mail ou
+            qualquer informação para terceiros. Jamais fazemos nenhum tipo de
+            spam. Se você tiver alguma dúvida, sinta-se à vontade para usar o
+            link de contato e falar conosco em horário comercial de Segunda a
+            Sexta das 09h00 às 18h00. Lemos e respondemos todas as mensagens por
+            ordem de chegada.
+          </p>
         </section>
       </div>
     </main>
