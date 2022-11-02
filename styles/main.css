@@ -95,6 +95,11 @@ button{
     font-size: 0.6rem;
 }
 
+.card-personalizado{
+    border: 2px solid var(--orange);
+    border-radius: 20px;
+}
+
 @keyframes crescendo {
     0%   {transform: scale(.8);}
     100% {transform: scale(1.2);}
