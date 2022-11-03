@@ -95,9 +95,22 @@ button{
     font-size: 0.6rem;
 }
 
+.icon{
+    width: 2rem;
+}
+
 .card-personalizado{
     border: 2px solid var(--orange);
     border-radius: 20px;
+    box-shadow: inset 0 0 18px #fff, 
+       inset -6px 0 18px var(--orange), 
+       inset 6px 0 18px var(--orange), 
+       inset -6px 0 18px var(--orange),
+       inset 6px 0 30px var(--orange), 
+       0 0 18px #fff, 4px 0 18px 
+       var(--orange), -4px 0 18px var(--orange);
+    display: flex;
+    flex-direction: column;
 }
 
 @keyframes crescendo {
