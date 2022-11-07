@@ -1,7 +1,11 @@
 const TEMPO = 60000;
 const content = document.querySelector("#hiddenContent");
 const disclosure = document.querySelector("#hiddenDisclosure");
-const buyBtn = document.querySelector("#buyButton")
+const buyBtn = document.querySelector("#buyButton");
+
+function comprar(){
+    window.open("https://pay.kiwify.com.br/4POYtgs","_blank")
+}
 
 function showContent(){
     content.classList.remove("d-none");
@@ -10,4 +14,5 @@ function showContent(){
 }
 
 setTimeout(showContent,TEMPO);
+
 

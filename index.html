@@ -49,12 +49,12 @@
         </div>
         <button
           class="text-black bg-green p-4 border-0 rounded d-none"
-          id="buyButton"
+          id="buyButton" onclick="comprar()"
         >
           QUERO UM SALÁRIO COM ESPORTES
         </button>
         <p
-          class="text-small bg-white text-black text-center mt-4"
+          class="text-small text-white text-center mt-4"
           id="hiddenDisclosure"
         >
           Este produto não garante a obtenção de resultados. Qualquer referência
@@ -70,7 +70,7 @@
           18h00. Lemos e respondemos todas as mensagens por ordem de chegada.
         </p>
       </section>
-      <div id="hiddenContent">
+      <div id="hiddenContent" class="d-none">
         <section
           class="d-flex flex-column my-4 justify-content-center align-items-center"
         >
@@ -153,7 +153,7 @@
               </div>
             </div>
           </div>
-          <button class="text-black bg-green p-4 border-0 rounded">
+          <button class="text-black bg-green p-4 border-0 rounded" id="buyButton" onclick="comprar()">
             QUERO UM SALÁRIO COM ESPORTES
           </button>
         </section>
@@ -164,7 +164,7 @@
             <h2>O QUE VOCÊ VAI RECEBER?</h2>
             <div class="row mt-4">
               <div
-                class="col-md-3 my-3 mx-lg-4 flex flex-column justify-content-center align-items-center bg-black card-personalizado p-3"
+                class="col-lg-3 my-3 mx-lg-4 flex flex-column justify-content-center align-items-center bg-black card-personalizado p-3"
               >
                 <h3>Acesso ao Time SCE</h3>
                 <p class="text-center">
@@ -173,7 +173,7 @@
                 </p>
               </div>
               <div
-                class="col-md-3 my-3 mx-lg-4 flex flex-column justify-content-center align-items-center bg-black card-personalizado p-3"
+                class="col-lg-3 my-3 mx-lg-4 flex flex-column justify-content-center align-items-center bg-black card-personalizado p-3"
               >
                 <h3>Mini Curso</h3>
                 <p class="text-center">
@@ -183,7 +183,7 @@
                 </p>
               </div>
               <div
-                class="col-md-3 my-3 mx-lg-4 flex flex-column justify-content-center align-items-center bg-black card-personalizado p-3"
+                class="col-lg-3 my-3 mx-lg-4 flex flex-column justify-content-center align-items-center bg-black card-personalizado p-3"
               >
                 <h3>2 Bônus surpresas</h3>
                 <p class="text-center">
@@ -193,7 +193,7 @@
               </div>
             </div>
           </div>
-          <button class="text-black bg-green p-4 border-0 rounded">
+          <button class="text-black bg-green p-4 border-0 rounded" id="buyButton" onclick="comprar()">
             QUERO ENTRAR NA COMUNIDADE
           </button>
         </section>
@@ -212,7 +212,7 @@
                 <li>Acesso ao grupo secreto</li>
                 <li>Call Quinzenal</li>
               </ul>
-              <button class="text-black bg-green p-4 border-0 rounded">
+              <button class="text-black bg-green p-4 border-0 rounded" id="buyButton" onclick="comprar()">
                 QUERO ENTRAR NA COMUNIDADE
               </button>
             </div>
@@ -226,7 +226,7 @@
                 <li>Acesso ao grupo secreto</li>
                 <li>Call Quinzenal</li>
               </ul>
-              <button class="text-black bg-green p-4 border-0 rounded">
+              <button class="text-black bg-green p-4 border-0 rounded" id="buyButton" onclick="comprar()">
                 QUERO ENTRAR NA COMUNIDADE
               </button>
             </div>
@@ -284,7 +284,7 @@
               </p>
             </div>
           </div>
-          <p class="text-small text-center bg-white text-black mt-lg-4">
+          <p class="text-small text-white text-center mt-lg-4">
             Este produto não garante a obtenção de resultados. Qualquer
             referência ao uso da ferramenta não deve ser interpretada como uma
             garantia de resultados. Este site não é afiliado ao Facebook ou a
