@@ -124,6 +124,11 @@ footer{
        var(--orange), -4px 0 18px var(--orange);
     display: flex;
     flex-direction: column;
+    margin-inline: 0.8em;
+}
+
+.col-lg-4{
+    width: 30% !important;
 }
 
 @keyframes crescendo {
